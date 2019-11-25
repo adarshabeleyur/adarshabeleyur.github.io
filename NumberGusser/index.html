@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Number Guesser</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      .site-footer {
+        text-align: center;
+      }
+      .fa-heart {
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h3>Number Guesser</h3>
+      <div id="game">
+        <!-- <div>
+          <label>Set Minimum Number</label>
+          <input type="number" id="min-input" placeholder="Enter Min number" />
+        </div>
+        <div>
+          <label>Set Maximum Number</label>
+          <input type="number" id="max-input" placeholder="Enter Max number" />
+        </div> -->
+        <!-- <div>
+          <h4>Guess a number</h4>
+        </div> -->
+        <p>
+          Guess a number between <span class="min-num"></span> and
+          <span class="max-num"></span>
+        </p>
+        <input
+          type="number"
+          id="guess-input"
+          placeholder="Enter your guess..."
+        />
+        <input type="submit" value="Submit" id="guess-btn" />
+        <p class="message"></p>
+      </div>
+      <footer class="site-footer">
+        <h6>Made with <i class="fa fa-heart" aria-hidden="true"></i></h6>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
