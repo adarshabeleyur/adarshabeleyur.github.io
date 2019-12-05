@@ -15,7 +15,7 @@ class UI {
           <span class="badge badge-primary">Public Repos: ${user.public_repos}</span>
           <span class="badge badge-secondary">Public Gits: ${user.public_gists}</span>
           <span class="badge badge-success">Followers: ${user.followers}</span>
-          <span class="badge badge-info">Public Repos: ${user.following}</span>
+          <span class="badge badge-info">Following: ${user.following}</span>
           <br><br>
           <ul class="list-group">
             <li class="list-group-item">Company: ${user.company}</li>
